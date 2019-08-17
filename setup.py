@@ -15,7 +15,6 @@ setup(
     long_description=readme,
     keywords="dnssec validation",
     python_requires=">=3.6",
-    packages=["dnssec"],
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3.6",
