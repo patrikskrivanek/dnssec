@@ -2,13 +2,13 @@ from setuptools import setup
 import setuptools
 import codecs
 
-with codecs.open('README.md', 'r', 'utf-8') as f:
+with codecs.open("README.md", "r", "utf-8") as f:
     readme = f.read()
 
 setup(
     name="dnssec",
     version="v1.0.0",
-    scripts=['dnssec'],
+    scripts=["dnssec"],
     url="https://github.com/patrikskrivanek/dnssec",
     download_url="https://github.com/patrikskrivanek/dnssec/releases",
     author="Patrik Skřivánek",
@@ -21,8 +21,8 @@ setup(
     keywords="dnssec validation",
     python_requires=">=3.6",
     install_requires=[
-        'dnspython',
-        'pycryptodomex',
+        "dnspython",
+        "pycryptodomex",
     ],
     classifiers=[
         "Programming Language :: Python :: 3.6",
