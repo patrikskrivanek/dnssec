@@ -33,7 +33,7 @@ def arg_parse() -> argparse:
 
     parser = argparse.ArgumentParser(description=DESCRIPTION)
     parser.add_argument('--version', action='version', version='%(prog)s {version}'.format(version=VERSION))
-    parser.add_argument('--domain', help="URL of ssl certificate for check", required=True)
+    parser.add_argument('--domain', help="Name of domain for check", required=True)
     args = parser.parse_args()
 
     return args
