@@ -28,7 +28,7 @@ def arg_parse() -> argparse:
     """
     Parse input arguments
 
-    :return:
+    :return: argparse
     """
 
     parser = argparse.ArgumentParser(description=DESCRIPTION)
@@ -44,7 +44,7 @@ def validate_dnssec(domain: str) -> dict:
     DNSSEC validation function
 
     :param domain:
-    :return:
+    :return: dict
     """
 
     domain = domain + "."
