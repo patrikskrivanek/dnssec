@@ -2,7 +2,7 @@ language: python
 python:
   - "3.6"
   - "3.7"
-
-# command to run tests
+install:
+  - python setup.py install
 script:
   - python dnssec --domain github.com
